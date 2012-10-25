@@ -1,0 +1,5 @@
+usage: ruby rubf.rb yourfile.bf >youroutputfile.s
+
+Then compile with:
+gcc youroutputfile.s
+
