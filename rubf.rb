@@ -24,7 +24,7 @@ class Compiler
     PTR_SIZE=4
     def compile_exp(exp)
         exp.each_with_index do |a,i|
-            if exp[i] == "["                #this will break on files with nested loops
+            if exp[i] == "["                
                 @loopcount += 2
                 puts <<STARTLOOP
         jmp\t.L#{@loopcount}
