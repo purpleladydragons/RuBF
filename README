@@ -1,5 +1,5 @@
 usage: ruby rubf.rb yourfile.bf >youroutputfile.s
 
-Then compile with:
+Then assemble with:
 gcc youroutputfile.s
 
